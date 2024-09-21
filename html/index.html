@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodyBackground">
+    <h1>Weather Application</h1>
+    <div class="container">
+        <div class="weatherCard">
+            <div class="temp flex">
+                <img id="weatherIcon" src="" alt="">
+                <span id="temp"></span>
+            </div>
+            <div class="location flex">
+                <p id="areaName"></p>
+                <p id="cityName"></p>
+                <p id="countryName"></p>
+            </div>
+            <div class="timeline flex">
+                <p id="date"></p>
+                <p id="time"></p>
+            </div>
+            <div class="weatherInfo flex">
+                <div class="windInfo infoBox">
+                    <h3 class="smallHeading">Wind Speed</h3>
+                    <span id="windSpeed" class="smallHeading"></span>
+                </div>
+                <div class="humidityInfo infoBox">
+                    <h3 class="smallHeading">Humidity</h3>
+                    <span id="humidity" class="smallHeading"></span>
+                </div>
+            </div>
+            <div class="weather flex">
+                <div class="rain">
+                    <i class="material-icons" style="font-size: 18px; color: white;">cloud</i>
+                    <p>weather Details</p>
+                </div>
+                <p id="weatherDetails"></p>
+            </div>
+            <hr>
+            <div class="rainDetails flex">
+                <div class="rain">
+                    <i class="material-icons" style="font-size: 18px; color: aqua;">water_drop</i>
+                    <p>Rain Chance</p>
+                </div>
+                <p id="rainChance"></p>
+            </div>
+        </div>
+        <div id="weeklyForCast" class="weeklyForCast">
+                
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
