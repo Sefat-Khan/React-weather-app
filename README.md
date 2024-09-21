@@ -82,9 +82,6 @@ Once the application is running, you can:
 
 2. Weather data and icons are fetched dynamically from an API.
 
-# Preview
-  link: https://sefat-khan.github.io/React-weather-app/
-
 # Project Structure
 
 bash
